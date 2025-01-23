@@ -1,4 +1,3 @@
-
 .body{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -40,7 +39,7 @@
     font-weight: 3px;
 }
 .middle-part li:hover{
-    background-color: #555; 
+    background-color: #555; /* Highlight effect on hover */
         border-radius: 5px;
 }
 .right-part {
@@ -207,7 +206,7 @@ li{
 .first-part img,
 .first-part .yt-text1 {
     display: inline-block;
-    vertical-align: middle; 
+    vertical-align: middle; /* Aligns elements vertically */
 }
 .yt_img{
    height: 20px;
@@ -356,37 +355,30 @@ li{
     background-color: #7792FF;
    margin-left: 180px;
    border: 2px dashed white;
-   /*display: flex;*/
+   display: flex;
+   flex-direction: column; 
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-evenly;
 
-   
- 
 }
-
+.squ-main-terminated{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+.checkmark-text2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 16px;
+    color: white;
+}
+.try-again{
+    margin-left: 90px;
+    margin-top: 20px;
+}
 .sq-img1{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    margin-top: 15px; 
-    margin-bottom: 15px;
+    padding-bottom: 30px;
 }
-.squ-main{
-    background-color:none;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-.squ-main img{
-    margin-left: 10px;
-}
-.play-btn{
-    height: 50px;
-    margin-right: 3px;
-   /* margin-left: 20px;*/
-   margin: 0;
 
-}
 .paste-text{
     width: 700px; 
     height: 40px; 
@@ -412,7 +404,7 @@ li{
 }
 
 .download-btn:hover {
-    background-color: grey;
+    background-color: grey; 
 }
 
 
